@@ -1,0 +1,631 @@
+.our-expert {
+    margin-top: 160px;
+    background-color: #FEEFEF;
+    padding: 160px;
+
+    h5 {
+        margin-bottom: 10px;
+        color: #96BB7C;
+        font-weight: 600;
+    }
+
+    h2 {
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .Problems {
+        color: #737373;
+        font-weight: 600;
+        width: 31%;
+    }
+
+    .our-paragrep {
+        p {
+            margin-bottom: 80px;
+        }
+    }
+
+    .sal {
+        background-color: #E74040;
+        position: absolute;
+        color: #fff;
+        border-radius: 3px;
+        padding: 4px 20px;
+        font-size: 18px;
+        font-weight: 600;
+        left: 17px;
+        top: 17px;
+    }
+
+    .icon-container {
+        display: flex;
+        position: absolute;
+        top: 37%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        justify-content: center;
+        align-items: center;
+        gap: 9px;
+        display: none;
+    }
+
+    .line-one {
+        background: #fff;
+        border-radius: 44px;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 21px;
+        transition: all .5s ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #96BB7C;
+            color: #fff;
+        }
+    }
+
+    .line-two {
+        background: #fff;
+        border-radius: 44px;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 21px;
+        transition: all .5s ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #96BB7C;
+            color: #fff;
+        }
+    }
+
+    .line-three {
+        background: #fff;
+        border-radius: 44px;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 21px;
+        transition: all .5s ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #96BB7C;
+            color: #fff;
+        }
+    }
+
+    .card-body {
+        position: relative;
+
+        .card-plenty {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 25px;
+
+            .text-title {
+                h5 {
+                    color: #96BB7C;
+                    font-size: 20px;
+                    font-weight: 600;
+                    margin-bottom: 10px;
+                }
+
+            }
+
+            .text-had {
+                p {
+                    background-color: #2D4059;
+                    color: #fff;
+                    width: 60px;
+                    height: 26px;
+                    border-radius: 20px;
+                }
+
+                .st-star {
+                    color: #FFCE31;
+                    margin-left: 6px;
+                }
+            }
+        }
+
+        .get {
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .card-text {
+            color: rgb(0 0 0 / 20%);
+            font-size: 15px;
+            font-weight: 400;
+            width: 85%;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+
+        .main-icon {
+            margin-bottom: 10px;
+
+            .c-fill {
+                font-size: 20px;
+                color: #737373;
+                margin-right: 12px;
+            }
+
+            .five {
+                color: #737373;
+                font-size: 16px;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .fift {
+        color: #BDBDBD;
+        font-weight: bold;
+        font-size: 19px;
+    }
+
+    .six {
+        color: #FFAB71;
+    }
+
+    .btn-big {
+        background-color: transparent;
+        border: 1px solid #96BB7C;
+        padding: 10px 20px;
+        border-radius: 37px;
+        color: #96BB7C;
+    }
+
+    .imge-card {
+        position: relative;
+        // display: flex;
+        display: inline-block;
+
+    }
+
+    .imge-card:hover .icon-container {
+        display: block;
+        display: flex;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 900px) {
+
+    .best-back {
+        height: 200vh;
+        width: 100%;
+    }
+
+    .student-text {
+        .student-book {
+            .student-main {
+                .student-but {
+                    button {
+                        padding: 15px 20px;
+                        font-size: 13px;
+                    }
+
+                }
+
+                .student-but-2 {
+                    button {
+                        padding: 15px 20px;
+                        font-size: 13px;
+                    }
+                }
+            }
+
+            .abate {
+                width: 71%;
+                font-size: 30px;
+                text-shadow: 1px 2px #0000;
+            }
+
+            .luxuriant {
+                font-size: 15px;
+                width: 71%;
+            }
+        }
+    }
+
+    .every-client {
+        .pos-client {
+            width: 300px;
+        }
+
+        .every-client-is {
+            h2 {
+                font-size: 23px;
+            }
+
+            .border-s {
+                width: 19%;
+                margin-bottom: 20px;
+            }
+
+            p {
+                font-size: 15px;
+                width: 90%;
+            }
+        }
+    }
+
+    .our-expert {
+        h5 {
+            font-size: 15px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+
+        .our-paragrep p {
+            font-size: 16px;
+            width: 100%;
+        }
+
+        .card-body {
+            .card-plenty {
+                .text-title {
+                    h5 {
+                        font-size: 16px;
+                        width: 100%;
+                    }
+                }
+            }
+
+            .get {
+                font-size: 15px;
+            }
+
+            .card-text {
+                font-size: 12px;
+                width: 100%;
+            }
+        }
+
+        .fift {
+            font-size: 15px;
+        }
+
+        .btn-big {
+            font-size: 13px;
+            padding: 7px 13px;
+        }
+
+        .imge-card {
+            width: 100%;
+        }
+    }
+
+
+    .main-client-people {
+        .our-paragrep {
+            h5 {
+                font-size: 16px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            .Problems-t {
+                font-size: 14px;
+            }
+        }
+
+        .main-star {
+            .star-yellow {
+                font-size: 12px;
+            }
+        }
+
+    }
+
+    .last-complete {
+
+        .input-body {
+            .input-main {
+                .sbb {
+                    width: 100%;
+                }
+            }
+
+            .button-input {
+                button {
+                    right: 0;
+                }
+            }
+        }
+
+    }
+
+
+    .team-popular-course {
+        .our-paragrep {
+            h2 {
+                font-size: 20px;
+            }
+        }
+
+
+    }
+
+
+    .footer-products {
+        .footer-mian {
+            flex-wrap: wrap;
+            gap: 27px;
+        }
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .student-text {
+        .student-book {
+            .abate {
+                width: 96%;
+                font-size: 25px;
+            }
+
+            .luxuriant {
+                font-size: 13px;
+                width: 87%;
+            }
+
+            .student-main {
+                .student-but {
+                    button {
+                        padding: 13px 15px;
+                        font-size: 12px;
+                    }
+                }
+
+                .student-but-2 {
+                    button {
+                        padding: 13px 15px;
+                        font-size: 12px;
+                    }
+                }
+            }
+
+        }
+
+        .main-img-text {
+            width: 300px;
+
+            .gam-hs {
+                right: 10px;
+            }
+
+            .set-out {
+                left: -17px;
+            }
+
+            .student-girl {
+                .set-woman {
+                    top: 25px;
+                }
+            }
+
+        }
+
+        .card-box {
+            .express {
+                font-size: 21px;
+            }
+        }
+    }
+
+    .counter-second {
+        .main-counter {
+            .book-box-t {
+                font-size: 40px;
+            }
+        }
+    }
+
+    .every-client {
+        .pos-client {
+            .img-3 {
+                right: -50px;
+            }
+
+            .img-6 {
+                right: -29px;
+            }
+        }
+    }
+
+    .main-client-people {
+        .main-star {
+            .star-yellow {
+                font-size: 20px;
+            }
+
+            .main-boss {
+                p {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    .last-complete {
+        .input-and-text {
+            .w {
+                font-size: 23px;
+            }
+        }
+    }
+
+
+}
+
+@media (max-width: 600px) {
+    .every-client {
+        .pos-client {
+            width: 272px;
+
+            .img-3 {
+                display: none;
+            }
+
+            .img-6 {
+                display: none;
+            }
+        }
+    }
+
+    .student-text {
+        .main-img-text {
+            width: 263px;
+        }
+    }
+}
+
+
+@media (max-width: 400px) {
+    .team-popular-course {
+        .card-fanta {
+            .cahk {
+                display: flex;
+            }
+        }
+    }
+
+    .our-expert {
+        .imge-card {
+            width: 200px;
+        }
+    }
+
+    .every-client {
+        .pos-client {
+            width: 174px;
+        }
+    }
+
+
+    .student-text {
+        .student-book {
+            .abate {
+                font-size: 18px;
+            }
+            .student-main {
+                .student-but {
+                    button {
+                        width: 105px;
+                        padding: 11px 10px;
+                    }
+                }
+
+                .student-but-2 {
+                    button {
+                        width: 105px;
+                        padding: 11px 10px;
+                    }
+                }
+            }
+
+        }
+
+        .main-img-text {
+            width: 171px;
+            height: 246px;
+
+            .gam-hs {
+                display: none;
+            }
+
+            .set-out {
+                display: none;
+            }
+
+            .student-girl {
+                .set-woman {
+                    top: 25px;
+                    left: -6px;
+                }
+            }
+
+        }
+
+    }
+
+    .our-expert{
+        h2{
+            width: 142px;
+        }
+        .our-paragrep{
+            p{
+                width: 211px;
+            }
+        }
+    }
+
+    .team-popular-course{
+        .our-paragrep{
+            .Problems{
+                width: 79%;
+            }
+        }
+    }
+
+    .footer-button{
+        .main-button{
+            flex-wrap: wrap;
+        }
+    }
+    
+    .nav-good{
+        .sing-page{
+            .button-t{
+                .bt{
+                    padding: 10px 20px;
+                    font-size: 15px;                
+                }
+            }
+        }
+    }
+
+}

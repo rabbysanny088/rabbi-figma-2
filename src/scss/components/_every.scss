@@ -1,0 +1,74 @@
+.every-client {
+    margin-top: 160px;
+
+    .every-client-is {
+        .border-s {
+            border: 5px solid #E74040;
+            width: 14%;
+            margin-bottom: 35px;
+        }
+
+        h2 {
+            font-size: 40px;
+            font-weight: bold;
+            margin-bottom: 35px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #737373;
+            font-weight: 400;
+            width: 60%;
+            margin-bottom: 35px;
+        }
+
+        .nav-chat {
+            text-decoration: none;
+            color: #96BB7C;
+            font-weight: bold;
+            font-size: 18px;
+        }
+    }
+
+    .pos-client {
+        position: relative;
+        background-color: #FEEFEF;
+        width: 418px;
+        height: 377px;
+        border-top-left-radius: 116px;
+        border-top-right-radius: 45px;
+    }
+
+    .img-3 {
+        position: absolute;
+        top: 0;
+        right: -96px;
+    }
+    .img-4{
+        position: absolute;
+        left: -43px;
+        top: 0;    
+    }
+
+    .img-5{
+        position: absolute;
+        left: -15px;
+        top: 333px;   
+    }
+
+    .img-6{  
+        position: absolute;
+        bottom: -22px;
+        right: -72px;
+    }
+
+    .img-1{
+        position: absolute;
+        top: 44%;
+        left: 62%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+

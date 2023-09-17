@@ -1,0 +1,123 @@
+.student-text {
+    .student-book {
+        .joy {
+            font-size: 20px;
+            color: #96BB7C;
+            font-weight: 500;
+        }
+
+        .abate {
+            color: #000000;
+            // width: 60%;
+            font-size: 42px;
+            font-weight: 700;
+            text-shadow: 2px 3px 2px #000000;
+            width: 61%;
+        }
+
+        .luxuriant {
+            font-size: 20px;
+            color: gray;
+            letter-spacing: 1.1px;
+            width: 58%;
+        }
+    }
+
+    .student-main {
+        .student-but button {
+            margin-right: 10px;
+            background-color: #96BB7C;
+            padding: 15px 40px;
+            border-radius: 5px;
+            border: 0;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .student-but-2 button {
+            margin-right: 10px;
+            background-color: transparent;
+            padding: 15px 40px;
+            border-radius: 5px;
+            border: 1px solid #96BB7C;
+            color: #96BB7C;
+            font-size: 16px;
+            font-weight: 600;
+        }
+    }
+
+    .main-img-text {
+        position: relative;
+        background-color: #FFF2F3;
+        border-radius: 50px;
+        width: 395px;
+        height: 347px;
+
+        .gam-hs {
+            position: absolute;
+            right: 55px;
+            top: 20px;
+        }
+
+    }
+
+    .set-out {
+        background-image: url(/src/img/Frame.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 327px;
+        position: absolute;
+        left: -95px;
+        top: 43px;
+    }
+
+    .student-girl {
+        .set-woman {
+            z-index: 1;
+            position: absolute;
+            top: -74px;
+            left: -49px;
+        }
+    }
+
+    .card-box{
+        background-color: #FFFFFF;
+        box-shadow: 0px 15px 19px #e0e0e0;
+        padding: 35px 40px;
+        .card-img-col{
+            background-color: #E74040;
+            margin-bottom: 20px;
+            border-radius: 50%;
+            padding: 20px;
+            color: #Fff;
+            width: 53px;
+            height: 53px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+        }
+
+        .express{
+            margin-bottom: 20px;
+            font-size: 29px;
+            font-weight: bold;
+        }
+        .bor{
+            border-bottom: 3px solid #E74040;
+            width: 22%;
+            margin-bottom: 20px;
+        }
+
+        .gradul{
+            font-size: 16px;
+            color: #737373;
+            font-weight: 500;
+            width: 71%;
+        }
+    }
+}

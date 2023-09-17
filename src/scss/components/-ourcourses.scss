@@ -1,0 +1,41 @@
+.team-popular-course {
+    margin-top: 112px;
+
+    .card-fanta {
+        margin-top: 112px;
+        background: #fff;
+        box-shadow: 0px 15px 19px #e0e0e0;
+        width: 100%;
+        border-radius: 25px;
+
+        .chat-card {
+            .cahk {
+                border-top-left-radius: 25px;
+                border-top-right-radius: 25px;
+            }
+        }
+
+        .card-big {
+            text-align: center;
+            padding: 30px;
+            .icon-card i{
+                color: #96BB7C;
+                font-size: 27px;
+            }
+        }
+
+        .card-texts {
+            font-size: 18px;
+            font-weight: bold;
+            color: black;
+            margin-bottom: 10px;
+        }
+
+        .card-text{
+            color: #737373;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+    }
+}

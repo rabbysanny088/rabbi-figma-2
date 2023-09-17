@@ -1,0 +1,23 @@
+@import "./base/reset";
+@import "./base/typography";
+
+// herader
+@import "./components/header";
+//color
+@import "./components/color";
+// student
+@import "./components/student";
+// counter
+@import "./components/every";
+// our skilled
+@import "./components/our-skilled";
+// our courses
+@import "./components/-ourcourses.scss";
+// mainpeople
+@import "./components/mainpeople.scss";
+// last
+@import "./components/last.scss";
+// footer
+@import "./components/footer.scss";
+
+@import "./components/counter";
