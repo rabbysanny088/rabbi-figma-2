@@ -11,8 +11,8 @@ var swiper = new Swiper(".main-slider-box", {
     dynamicBullets: true,
   },
   navigation: {
-    nextEl: ".st-generosity",
-    prevEl: ".st-avarice ",
+    nextEl: ".st-generosityg",
+    prevEl: ".st-avaricef",
   },
   breakpoints:{
     0:{
