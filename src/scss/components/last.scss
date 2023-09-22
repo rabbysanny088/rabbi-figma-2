@@ -9,7 +9,7 @@
             font-weight: 600;
         }
 
-        .w{
+        .w {
             font-size: 40px;
             font-weight: bold;
         }
@@ -26,8 +26,8 @@
         position: relative;
     }
 
-    .input-main{
-        input{
+    .input-main {
+        input {
             padding: 28px;
             font-size: 14px;
             font-weight: 600;
@@ -42,8 +42,8 @@
         }
     }
 
-    .button-input{
-        .button-inputs{
+    .button-input {
+        .button-inputs {
             position: absolute;
             right: 324px;
             top: 1px;
@@ -55,8 +55,97 @@
             font-weight: 400;
             letter-spacing: 2px;
             border-top-right-radius: 5px;
-            border-bottom-right-radius: 5px;      
+            border-bottom-right-radius: 5px;
         }
     }
 
+}
+
+
+.icon-dive-slider {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+
+    .st-generosity {
+        font-size: 32px;
+        background: #fff;
+        box-shadow: 2px 2px 2px #dadada;
+        padding: 4px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+    .st-avarice {
+        font-size: 32px;
+        background: orangered;
+        box-shadow: 2px 2px 2px #dadada;
+        padding: 4px;
+        margin-right: 20px;
+        cursor: pointer;
+        transition: .4s ease-in-out;
+
+        &:hover {
+            background: orangered;
+
+        }
+    }
+
+}
+
+.card-fanta .chat-card {
+    object-fit: cover;
+}
+
+.chat-card {
+    overflow: hidden;
+}
+
+.cahk {
+
+    width: 100%;
+    max-width: 266px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+.swiper-pagination{
+    display: none;
+}
+
+// .swiper-navBtn{
+//     position: absolute;
+//     bottom: 0;
+//     top: 95%;
+//     left: 50%;
+//     text-align: center;
+//     margin: 0 auto;
+//     transform: translateY(-50%);
+// }
+
+
+// .swiper-navBtns{
+//     position: absolute;
+//     bottom: 0;
+//     top: 95%;
+//     left: 50%;
+//     text-align: center;
+//     margin: 0 auto;
+//     transform: translateY(-50%);
+// }
+
+
+@media (max-width: 600px) {
+    .swiper-navBtn{
+        display: none;
+    }
+
+    .swiper-navBtns{
+        display: none;
+    }
 }
